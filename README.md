@@ -1,4 +1,4 @@
-# 🌞 Solar Data Discovery
+# Solar Data Discovery
 
 **Solar Data Discovery** is an interactive platform that brings solar energy data to life. Whether you're a researcher exploring renewable energy trends, a policymaker shaping clean energy initiatives, or simply someone curious about solar potential, this tool helps you visualize and understand solar data easily.
 
