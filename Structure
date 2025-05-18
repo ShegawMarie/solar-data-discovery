@@ -1,0 +1,36 @@
+solar-data-discovery/
+├── frontend/ # React frontend app
+├── backend/ # Python API proxy, caching, CSV handler
+├── data/ # Sample data (e.g. benin-malanville.csv)
+├── docs/ # Documentation and screenshots
+├── README.md
+├── requirements.txt # Backend dependencies
+└── package.json # Frontend dependencies
+
+
+---
+
+## 📊 Sample Dataset
+
+This project uses real-world solar data for demonstration purposes, including:
+
+- **Benin (Malanville)** – File: `benin-malanville.csv`
+- Sierra Leone
+- Togo
+
+These datasets include time series for solar irradiance and can be expanded to support custom uploads.
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/solar-data-discovery.git
+cd solar-data-discovery
+-- Backend
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python app.py
